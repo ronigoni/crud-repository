@@ -1,0 +1,6 @@
+com/radware/exercise/RadWareApplication.class
+com/radware/exercise/service/ProductService.class
+com/radware/exercise/controller/CrudRestController.class
+com/radware/exercise/controller/CrudController.class
+com/radware/exercise/repository/ProductRepository.class
+com/radware/exercise/models/Product.class
