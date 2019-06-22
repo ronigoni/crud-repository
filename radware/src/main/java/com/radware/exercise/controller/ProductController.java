@@ -12,22 +12,21 @@ import java.util.List;
 public class ProductController {
 
     @Autowired
-    ProductService productServiceImp;
+    ProductService productService;
 
     public void saveProduct(Product product){
-        productServiceImp.saveProduct(product);
+        productService.saveProduct(product);
     }
 
-
     public Product getProductById(int id) throws Exception {
-            return productServiceImp.getProduct(id);
+            return productService.getProduct(id);
     }
 
     public void saveProducts(List<Product> products){
-        productServiceImp.saveProducts(products);
+        productService.saveProducts(products);
     }
 
     public void deleteProduct(int id) {
-        productServiceImp.deleteProduct(id);
+        productService.deleteProduct(id);
     }
 }
