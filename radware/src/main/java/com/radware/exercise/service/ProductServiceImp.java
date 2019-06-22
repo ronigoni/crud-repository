@@ -19,7 +19,7 @@ public class ProductServiceImp implements ProductService {
     @Autowired
     ProductRepository repository;
 
-    static final Logger logger = LogManager.getLogger(RadWareApplication.class);
+    private static final Logger logger = LogManager.getLogger(RadWareApplication.class);
 
     public void saveProduct(Product product){
         logger.info("saving product with id " + product.getId());
